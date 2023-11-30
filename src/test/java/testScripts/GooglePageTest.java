@@ -1,5 +1,5 @@
 package testScripts;
-
+//git token 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
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -23,6 +23,7 @@ public class GooglePageTest {
 		System.out.println("Main title.."+driver.getTitle());
 		driver.navigate().forward();
 		System.out.println("current title.."+driver.getTitle());
+		System.out.println("URL.."+ driver.getCurrentUrl());
 		
 		
 		
